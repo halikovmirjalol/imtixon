@@ -1,0 +1,41 @@
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: white;
+    align-items: center;
+    color: gray;
+    position: fixed;
+
+    &__nav{
+          display: flex;
+          &__logo{
+            text-decoration: none;
+           }
+          &__item{
+            list-style: none;
+            margin: 10px;
+            a{
+                text-decoration: none;
+            }
+          }
+    }
+    &__btn{
+      color: white;
+      border: 1px solid #FCB72B;
+      text-decoration: none;
+      background-color: #FCB72B;
+      font-size: 15px;
+      padding: 12px 25px;
+    }
+    &__btn:hover{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    }
+    &__btn:active{
+      background-color: gray;
+    }
+}
+
+
+
+

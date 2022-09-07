@@ -1,0 +1,56 @@
+.main{
+    margin-top: 60px;
+    &__section{
+      display: flex;
+      align-items: center;
+      color: white;
+      background-image: url(../../images/Bitmap.svg);
+      font-size: 25px;
+      padding: 8rem 0;
+  
+      &__img{
+        margin-top: 100px;
+      }
+      &__item{
+        &__words{
+          margin-left: 100px;
+        }
+        p{
+          font-size: 20px;
+        }
+      }
+      &__img2{
+        margin-top: 250px;
+      }
+    }
+    &__section2{
+      display: flex;
+      gap: 30px;
+      padding: 170px;
+    }
+    &__section3{
+      display: flex;
+      &__item{
+        font-size: 20px;
+        padding: 130px;
+      }
+    }
+    &__section4{
+      display: flex;
+      &__item{
+        font-size: 20px;
+        padding: 130px;
+      }
+    }
+    &__section5{
+      display: flex;
+      &__item{
+        font-size: 20px;
+        padding: 130px;
+      }
+      &__image{
+        border-radius: 10000px;
+      }
+    }
+  }
+ 

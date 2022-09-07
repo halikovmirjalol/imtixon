@@ -1,0 +1,23 @@
+.footer{
+    &__item1{
+        display: flex;
+    justify-content: space-around;
+    margin-top: 300px;
+    background-color: #495567;
+    padding: 90px;
+    }
+    &__item2{
+        display: flex;
+        justify-content: space-around;
+        background-color: #333A44;
+        a{
+            text-decoration: none;
+            color: gray;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+    }
+}
